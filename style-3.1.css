@@ -1,0 +1,62 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: serif;
+	font-size: 23px;
+	line-height: 25px;
+	height: 1400px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: sans-serif;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+.green{
+	width: 600px;
+	height: 400px;
+	margin: 150px 450px;
+	background: green;
+	position: relative; 
+}
+
+.red{
+	width: 200px;
+	height: 200px;
+	background: red;
+	border-radius: 100%;
+	position: absolute; 
+	transform: translate(100%, 50%);
+	/*top: 25%;
+	left: 35%;	*/
+	z-index: 1;
+}
+
+/*.black{
+	width: 250px;
+	height: 250px;
+	background: black;
+	border-radius: 100%;
+	position: fixed; 
+	transform: translate(70%,50%);
+	top: 35%;
+	left: 55%;
+	z-index: 2;
+}*/
+
+.fb-share{
+	width: 10%;
+	position: fixed;
+	right: -100px;
+	bottom: 20%;
+	transition: 1s;
+} 
+.fb-share:hover{
+	right: 0px;
+	cursor: pointer;
+}
